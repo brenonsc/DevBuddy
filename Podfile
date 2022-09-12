@@ -9,4 +9,5 @@ target 'DevBuddy' do
 	pod 'FirebaseDatabase'
 	pod 'FirebaseAnalytics'
 	pod 'Firebase/Firestore'
+	pod 'AlertToast'
 end

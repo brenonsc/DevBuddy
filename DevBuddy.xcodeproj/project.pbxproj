@@ -11,13 +11,16 @@
 		551C0C94285CBA1100ABECE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551C0C93285CBA1100ABECE4 /* Assets.xcassets */; };
 		551C0C97285CBA1100ABECE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551C0C96285CBA1100ABECE4 /* Preview Assets.xcassets */; };
 		551C0CA0285CBB3700ABECE4 /* SymbolGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0C9F285CBB3700ABECE4 /* SymbolGroupModel.swift */; };
-		551C0CA2285CBB6000ABECE4 /* GradientGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0CA1285CBB6000ABECE4 /* GradientGridView.swift */; };
-		551C0CA4285CBB8F00ABECE4 /* SFListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0CA3285CBB8F00ABECE4 /* SFListView.swift */; };
+		551C0CA4285CBB8F00ABECE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0CA3285CBB8F00ABECE4 /* ContentView.swift */; };
 		551C0CA8285CCBA300ABECE4 /* SymbolGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0CA7285CCBA300ABECE4 /* SymbolGroupView.swift */; };
 		5532E6692860AC4E004ABF4B /* SymbolDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532E6682860AC4E004ABF4B /* SymbolDataModel.swift */; };
 		5532E66C2860B28D004ABF4B /* SymbolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532E66B2860B28D004ABF4B /* SymbolViewModel.swift */; };
 		553E07DA285DF13900E89E85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 553E07D9285DF13900E89E85 /* GoogleService-Info.plist */; };
+		554B9275286A392C003443EC /* RenderingModeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B9274286A392C003443EC /* RenderingModeDataModel.swift */; };
+		554B9277286A39AE003443EC /* RenderingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B9276286A39AE003443EC /* RenderingViewModel.swift */; };
 		555347D3285CDC9B0011D813 /* SymbolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555347D2285CDC9B0011D813 /* SymbolDetailView.swift */; };
+		55B3934D28679BAD00E91EAF /* ColorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3934C28679BAD00E91EAF /* ColorDataModel.swift */; };
+		55B3934F28679C4D00E91EAF /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3934E28679C4D00E91EAF /* ColorViewModel.swift */; };
 		FD68AD32207D1BE3565213C2 /* Pods_DevBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20FDA861597D0D2B144D65E /* Pods_DevBuddy.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,13 +31,16 @@
 		551C0C93285CBA1100ABECE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		551C0C96285CBA1100ABECE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		551C0C9F285CBB3700ABECE4 /* SymbolGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGroupModel.swift; sourceTree = "<group>"; };
-		551C0CA1285CBB6000ABECE4 /* GradientGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientGridView.swift; sourceTree = "<group>"; };
-		551C0CA3285CBB8F00ABECE4 /* SFListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFListView.swift; sourceTree = "<group>"; };
+		551C0CA3285CBB8F00ABECE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		551C0CA7285CCBA300ABECE4 /* SymbolGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGroupView.swift; sourceTree = "<group>"; };
 		5532E6682860AC4E004ABF4B /* SymbolDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDataModel.swift; sourceTree = "<group>"; };
 		5532E66B2860B28D004ABF4B /* SymbolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolViewModel.swift; sourceTree = "<group>"; };
 		553E07D9285DF13900E89E85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		554B9274286A392C003443EC /* RenderingModeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingModeDataModel.swift; sourceTree = "<group>"; };
+		554B9276286A39AE003443EC /* RenderingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingViewModel.swift; sourceTree = "<group>"; };
 		555347D2285CDC9B0011D813 /* SymbolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetailView.swift; sourceTree = "<group>"; };
+		55B3934C28679BAD00E91EAF /* ColorDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataModel.swift; sourceTree = "<group>"; };
+		55B3934E28679C4D00E91EAF /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
 		9F48F595E8409B364566980A /* Pods-DevBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevBuddy.release.xcconfig"; path = "Target Support Files/Pods-DevBuddy/Pods-DevBuddy.release.xcconfig"; sourceTree = "<group>"; };
 		D20FDA861597D0D2B144D65E /* Pods_DevBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +102,8 @@
 			children = (
 				551C0C9F285CBB3700ABECE4 /* SymbolGroupModel.swift */,
 				5532E6682860AC4E004ABF4B /* SymbolDataModel.swift */,
+				55B3934C28679BAD00E91EAF /* ColorDataModel.swift */,
+				554B9274286A392C003443EC /* RenderingModeDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -103,8 +111,7 @@
 		551C0C9E285CBAE100ABECE4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				551C0CA1285CBB6000ABECE4 /* GradientGridView.swift */,
-				551C0CA3285CBB8F00ABECE4 /* SFListView.swift */,
+				551C0CA3285CBB8F00ABECE4 /* ContentView.swift */,
 				551C0CA7285CCBA300ABECE4 /* SymbolGroupView.swift */,
 				555347D2285CDC9B0011D813 /* SymbolDetailView.swift */,
 			);
@@ -115,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				5532E66B2860B28D004ABF4B /* SymbolViewModel.swift */,
+				55B3934E28679C4D00E91EAF /* ColorViewModel.swift */,
+				554B9276286A39AE003443EC /* RenderingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -252,12 +261,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				551C0CA8285CCBA300ABECE4 /* SymbolGroupView.swift in Sources */,
-				551C0CA2285CBB6000ABECE4 /* GradientGridView.swift in Sources */,
+				55B3934F28679C4D00E91EAF /* ColorViewModel.swift in Sources */,
 				5532E66C2860B28D004ABF4B /* SymbolViewModel.swift in Sources */,
 				555347D3285CDC9B0011D813 /* SymbolDetailView.swift in Sources */,
 				551C0CA0285CBB3700ABECE4 /* SymbolGroupModel.swift in Sources */,
-				551C0CA4285CBB8F00ABECE4 /* SFListView.swift in Sources */,
+				551C0CA4285CBB8F00ABECE4 /* ContentView.swift in Sources */,
 				551C0C90285CBA0F00ABECE4 /* DevBuddyApp.swift in Sources */,
+				554B9275286A392C003443EC /* RenderingModeDataModel.swift in Sources */,
+				554B9277286A39AE003443EC /* RenderingViewModel.swift in Sources */,
+				55B3934D28679BAD00E91EAF /* ColorDataModel.swift in Sources */,
 				5532E6692860AC4E004ABF4B /* SymbolDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,9 +406,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +419,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -425,9 +438,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

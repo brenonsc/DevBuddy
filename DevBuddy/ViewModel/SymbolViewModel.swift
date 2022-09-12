@@ -40,7 +40,7 @@ class SymbolViewModel: ObservableObject
             
             else
             {
-                print("ERRO")
+                print(error.debugDescription)
             }
         }
         
@@ -64,7 +64,9 @@ class SymbolViewModel: ObservableObject
                         {
                             doc in
                             return SymbolData(id: doc.documentID,
-                                               symbol: doc["symbol"] as? String ?? "")
+                                              symbol: doc["symbol"] as? String ?? "",
+                                              multicolor: doc["multicolor"] as? Bool ?? false,
+                                              restriction: doc["restriction"] as? String ?? "")
                         }
                     }
                 }
@@ -72,7 +74,7 @@ class SymbolViewModel: ObservableObject
             
             else
             {
-                print("ERRO")
+                print(error.debugDescription)
             }
         }
         

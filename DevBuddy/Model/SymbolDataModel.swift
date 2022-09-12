@@ -11,4 +11,6 @@ struct SymbolData: Identifiable
 {
     var id: String
     var symbol: String
+    var multicolor: Bool
+    var restriction: String
 }

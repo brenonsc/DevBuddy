@@ -29,20 +29,7 @@ struct DevBuddyApp: App
     {
         WindowGroup
         {
-            TabView
-            {
-                SFListView()
-                .tabItem
-                {
-                    Label("SF Symbols", systemImage: "staroflife.fill")
-                }
-                
-                GradientGridView()
-                .tabItem
-                {
-                    Label("Gradients", systemImage: "eyedropper.halffull")
-                }
-            }
+            ContentView()
         }
     }
 }
